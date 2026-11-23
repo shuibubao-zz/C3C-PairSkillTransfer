@@ -1,0 +1,41 @@
+{
+  "dataset": "P27 双城演示数据 · 修正前错误复现样例",
+  "note": "错误项来自 P27 材料记录的真实问题；凭证引用已脱敏，不含真实密码。非完整业务数据集。",
+  "drivers": [
+    {
+      "id": "D-SY-001",
+      "terminal": "PDA-2026001",
+      "credential_ref": "legacy-123456"
+    },
+    {
+      "id": "D-DL-002",
+      "terminal": "PDA-DL-0002",
+      "credential_ref": "map://driver/D-DL-002"
+    }
+  ],
+  "delivery_orders": [
+    {
+      "id": "SO-SY-0001",
+      "pod_status": "PENDING"
+    },
+    {
+      "id": "SO-DL-0002",
+      "pod_status": "SIGNED"
+    }
+  ],
+  "scenarios": ["正常签收", "超时未送达"],
+  "test_cases": [
+    {
+      "id": "TC-01",
+      "login_step": false
+    },
+    {
+      "id": "TC-02",
+      "login_step": true
+    },
+    {
+      "id": "TC-03",
+      "login_step": false
+    }
+  ]
+}

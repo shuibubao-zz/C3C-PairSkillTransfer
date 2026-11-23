@@ -1,0 +1,41 @@
+{
+  "dataset": "P27 双城演示数据 · 按材料口径修正后的样例",
+  "note": "修正项对应 P27 材料中靖雪晴的逐条核对动作；为演示规则而构造，不宣称是她的原始交付文件。",
+  "drivers": [
+    {
+      "id": "D-SY-001",
+      "terminal": "PDA-SY-0001",
+      "credential_ref": "map://driver/D-SY-001"
+    },
+    {
+      "id": "D-DL-002",
+      "terminal": "PDA-DL-0002",
+      "credential_ref": "map://driver/D-DL-002"
+    }
+  ],
+  "delivery_orders": [
+    {
+      "id": "SO-SY-0001",
+      "pod_status": "PENDING"
+    },
+    {
+      "id": "SO-DL-0002",
+      "pod_status": "DELIVERED"
+    }
+  ],
+  "scenarios": ["正常签收", "拒收", "部分签收", "超时未送达"],
+  "test_cases": [
+    {
+      "id": "TC-01",
+      "login_step": true
+    },
+    {
+      "id": "TC-02",
+      "login_step": true
+    },
+    {
+      "id": "TC-03",
+      "login_step": true
+    }
+  ]
+}

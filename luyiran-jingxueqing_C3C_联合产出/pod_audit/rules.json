@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "derived_from": "P27 聚思达项目 2026-10-19 成员分工材料；见 C3C/evidence/P27_来源摘录.md",
+  "note": "规则由 P27 真实纠错记录抽象而成；终端编号保留原值，凭证引用已脱敏为 map:// 引用，不含真实密码。",
+  "terminal_id": {
+    "pattern": "^PDA-(SY|DL)-[0-9]{4}$",
+    "source": "靖雪晴：AI 生成的 PDA-2026001 与 base_device 表实际绑定 PDA-SY-0001 不符"
+  },
+  "credential_ref": {
+    "forbidden": ["legacy-123456", "legacy-shared"],
+    "source": "靖雪晴：旧密码引用导致司机端登录失败；卢怡然：冒烟脚本过期参数"
+  },
+  "pod_status": {
+    "allowed": ["CREATED", "PENDING", "PARTIAL", "REJECTED", "OVERTIME", "DELIVERED"],
+    "source": "P27 项目 POD 凭证状态口径（含王艺燃评审，作为项目背景）"
+  },
+  "required_scenarios": ["正常签收", "拒收", "部分签收", "超时未送达"],
+  "login_step": {
+    "required": true,
+    "source": "靖雪晴：用例步骤中 AI 省略了前置登录步骤，已补上"
+  }
+}

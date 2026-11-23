@@ -1,0 +1,13 @@
+{
+  "dataset": "P27 双城演示数据 · 按材料口径修正后的样例",
+  "rules_version": "1.0",
+  "checked": {
+    "drivers": 2,
+    "delivery_orders": 2,
+    "scenarios": 4,
+    "test_cases": 3
+  },
+  "pass": true,
+  "finding_count": 0,
+  "findings": []
+}

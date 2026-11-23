@@ -1,0 +1,53 @@
+{
+  "dataset": "P27 双城演示数据 · 修正前错误复现样例",
+  "rules_version": "1.0",
+  "checked": {
+    "drivers": 2,
+    "delivery_orders": 2,
+    "scenarios": 2,
+    "test_cases": 3
+  },
+  "pass": false,
+  "finding_count": 6,
+  "findings": [
+    {
+      "rule": "terminal_id.pattern",
+      "path": "drivers[0].terminal",
+      "message": "终端编号不符合 P27 库表绑定口径",
+      "observed": "PDA-2026001"
+    },
+    {
+      "rule": "credential_ref.forbidden",
+      "path": "drivers[0].credential_ref",
+      "message": "引用了迁移前的旧凭证引用",
+      "observed": "legacy-123456"
+    },
+    {
+      "rule": "pod_status.allowed",
+      "path": "delivery_orders[1].pod_status",
+      "message": "POD 状态不在允许集合中",
+      "observed": "SIGNED"
+    },
+    {
+      "rule": "required_scenarios",
+      "path": "scenarios",
+      "message": "缺少业务必需场景",
+      "observed": [
+        "拒收",
+        "部分签收"
+      ]
+    },
+    {
+      "rule": "login_step.required",
+      "path": "test_cases[0].login_step",
+      "message": "用例缺少前置登录步骤",
+      "observed": false
+    },
+    {
+      "rule": "login_step.required",
+      "path": "test_cases[2].login_step",
+      "message": "用例缺少前置登录步骤",
+      "observed": false
+    }
+  ]
+}

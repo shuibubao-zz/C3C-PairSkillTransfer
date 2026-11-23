@@ -1,0 +1,13 @@
+test_after_dataset_is_clean (test_audit.AuditTests.test_after_dataset_is_clean) ... ok
+test_all_required_scenarios (test_audit.AuditTests.test_all_required_scenarios) ... ok
+test_before_dataset_is_caught (test_audit.AuditTests.test_before_dataset_is_caught) ... ok
+test_legacy_credential_is_forbidden (test_audit.AuditTests.test_legacy_credential_is_forbidden) ... ok
+test_login_step_required (test_audit.AuditTests.test_login_step_required) ... ok
+test_terminal_rule_accepts_correct_binding (test_audit.AuditTests.test_terminal_rule_accepts_correct_binding) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+
+RESULT run=6 failures=0 errors=0 ok=True

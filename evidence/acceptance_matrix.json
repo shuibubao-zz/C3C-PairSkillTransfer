@@ -1,0 +1,358 @@
+{
+  "challenge": "C3C",
+  "required_pass": 28,
+  "required_total": 28,
+  "manifest_pass": 29,
+  "manifest_entries": 29,
+  "all_pass": true,
+  "audit_summary": {
+    "before_findings": 6,
+    "after_findings": 0,
+    "tests_ok": true
+  },
+  "known_gaps": [
+    "搭档专业证明缺失，跨专业硬条件待确认",
+    "无带时间戳的教学会话截图/录屏/聊天记录",
+    "靖雪晴的画像/笔记/AAR 为代拟稿，待本人签字",
+    "靖雪晴独立能力验证任务无证据",
+    "L4 公开分享与通用协作模板未做"
+  ],
+  "checks": [
+    {
+      "type": "required",
+      "path": "README.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_协作方案.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_技能画像_卢怡然.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_技能画像_靖雪晴.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_教学记录/01_技术到业务_库表字段核对.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_教学记录/02_业务到技术_异常场景与用例前置条件.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_教学记录/证据来源说明.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_学习笔记_卢怡然.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_学习笔记_靖雪晴.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/README.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/rules.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/audit.py",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/sample_before.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/sample_after.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/run_all.py",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/tests/test_audit.py",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/audit_before.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/audit_after.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/unittest.txt",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_前后对比.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_AAR.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_AI日志.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_目标与验收标准对照.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "luyiran-jingxueqing_C3C_交付清单.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "evidence/P27_来源摘录.md",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "evidence/audit_before.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "evidence/audit_after.json",
+      "pass": true
+    },
+    {
+      "type": "required",
+      "path": "evidence/unittest.txt",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_教学记录/01_技术到业务_库表字段核对.md",
+      "marker": "证据等级",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_教学记录/02_业务到技术_异常场景与用例前置条件.md",
+      "marker": "证据等级",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_教学记录/证据来源说明.md",
+      "marker": "不满足该硬性要求",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_技能画像_靖雪晴.md",
+      "marker": "待本人确认",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_学习笔记_靖雪晴.md",
+      "marker": "代拟稿",
+      "pass": true
+    },
+    {
+      "type": "honesty_marker",
+      "path": "luyiran-jingxueqing_C3C_交付清单.md",
+      "marker": "未满足",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "evidence/audit_after.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "evidence/audit_before.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "evidence/P27_来源摘录.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "evidence/unittest.txt",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_AAR.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_AI日志.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_交付清单.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_前后对比.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_协作方案.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_学习笔记_卢怡然.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_学习笔记_靖雪晴.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_技能画像_卢怡然.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_技能画像_靖雪晴.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_教学记录/01_技术到业务_库表字段核对.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_教学记录/02_业务到技术_异常场景与用例前置条件.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_教学记录/证据来源说明.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_目标与验收标准对照.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/audit.py",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/audit_after.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/audit_before.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/outputs/unittest.txt",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/rules.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/run_all.py",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/sample_after.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/sample_before.json",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/pod_audit/tests/test_audit.py",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合产出/README.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "README.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "tools/finalize.py",
+      "pass": true
+    },
+    {
+      "type": "audit",
+      "path": "evidence/audit_before.json",
+      "pass": true
+    },
+    {
+      "type": "audit",
+      "path": "evidence/audit_after.json",
+      "pass": true
+    },
+    {
+      "type": "tests",
+      "path": "evidence/unittest.txt",
+      "pass": true
+    }
+  ]
+}

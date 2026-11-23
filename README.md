@@ -26,9 +26,11 @@
 | `luyiran-jingxueqing_C3C_协作方案.md` | 谁和谁、项目目标、为什么单独做不到 |
 | `luyiran-jingxueqing_C3C_技能画像_卢怡然.md` | 技术侧技能自画像 |
 | `luyiran-jingxueqing_C3C_技能画像_靖雪晴.md` | 业务/数据侧技能自画像（含待确认字段） |
+| `luyiran-jingxueqing_C3C_协作记录.md` | 协作记录入口：两次知识迁移事件索引、可核对证据与证据等级 |
 | `luyiran-jingxueqing_C3C_教学记录/` | 2 次知识迁移事件记录 + 证据来源说明 |
 | `luyiran-jingxueqing_C3C_学习笔记_卢怡然.md` | 技术侧学习笔记（依据材料整理） |
 | `luyiran-jingxueqing_C3C_学习笔记_靖雪晴.md` | 业务侧学习笔记（代拟稿，待本人确认） |
+| `luyiran-jingxueqing_C3C_联合成果.md` | 联合成果入口：pod_audit 构成、实测结果、归属与局限 |
 | `luyiran-jingxueqing_C3C_联合产出/pod_audit/` | 可运行的数据核对器、规则、样例、单测与输出 |
 | `luyiran-jingxueqing_C3C_前后对比.md` | 学之前/学之后能力对比（含证据等级） |
 | `luyiran-jingxueqing_C3C_AAR.md` | 双人联合复盘 |

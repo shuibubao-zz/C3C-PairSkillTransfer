@@ -11,11 +11,13 @@
 | `luyiran-jingxueqing_C3C_协作方案.md` | 两人背景、项目目标、谁教谁什么、为什么单独做不到 |
 | `luyiran-jingxueqing_C3C_技能画像_卢怡然.md` | 技术侧技能自画像（8 项可证技能、3 项想学） |
 | `luyiran-jingxueqing_C3C_技能画像_靖雪晴.md` | 业务/数据侧技能自画像（代拟稿，专业等待确认） |
+| `luyiran-jingxueqing_C3C_协作记录.md` | 协作记录入口：两次知识迁移事件索引、可核对证据表与证据边界 |
 | `luyiran-jingxueqing_C3C_教学记录/01_技术到业务_库表字段核对.md` | 知识迁移事件 01（技术→业务），证据等级 B |
 | `luyiran-jingxueqing_C3C_教学记录/02_业务到技术_异常场景与用例前置条件.md` | 知识迁移事件 02（业务→技术），证据等级 B |
 | `luyiran-jingxueqing_C3C_教学记录/证据来源说明.md` | 说明为何没有会话截图，列补齐清单 |
 | `luyiran-jingxueqing_C3C_学习笔记_卢怡然.md` | 技术侧学了什么/卡在哪/怎么突破 |
 | `luyiran-jingxueqing_C3C_学习笔记_靖雪晴.md` | 业务侧学习笔记代拟稿，留本人填写/签字栏 |
+| `luyiran-jingxueqing_C3C_联合成果.md` | 联合成果入口：成果构成、修正前 6 → 后 0 的实测结果、归属与局限 |
 | `luyiran-jingxueqing_C3C_联合产出/README.md` | 联合产出说明、运行命令、规则来源对照 |
 | `luyiran-jingxueqing_C3C_联合产出/pod_audit/audit.py` | 零依赖核对器：5 类规则的可执行实现 |
 | `.../pod_audit/rules.json` | 规则包，每条规则标注 P27 来源 |

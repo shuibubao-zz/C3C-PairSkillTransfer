@@ -2,8 +2,8 @@
   "challenge": "C3C",
   "required_pass": 28,
   "required_total": 28,
-  "manifest_pass": 30,
-  "manifest_entries": 30,
+  "manifest_pass": 32,
+  "manifest_entries": 32,
   "all_pass": true,
   "audit_summary": {
     "before_findings": 6,
@@ -246,6 +246,11 @@
     },
     {
       "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_协作记录.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
       "path": "luyiran-jingxueqing_C3C_学习笔记_卢怡然.md",
       "pass": true
     },
@@ -332,6 +337,11 @@
     {
       "type": "hash",
       "path": "luyiran-jingxueqing_C3C_联合产出/README.md",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": "luyiran-jingxueqing_C3C_联合成果.md",
       "pass": true
     },
     {

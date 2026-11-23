@@ -2,8 +2,8 @@
   "challenge": "C3C",
   "required_pass": 28,
   "required_total": 28,
-  "manifest_pass": 29,
-  "manifest_entries": 29,
+  "manifest_pass": 30,
+  "manifest_entries": 30,
   "all_pass": true,
   "audit_summary": {
     "before_findings": 6,
@@ -192,6 +192,11 @@
       "type": "honesty_marker",
       "path": "luyiran-jingxueqing_C3C_交付清单.md",
       "marker": "未满足",
+      "pass": true
+    },
+    {
+      "type": "hash",
+      "path": ".gitignore",
       "pass": true
     },
     {
